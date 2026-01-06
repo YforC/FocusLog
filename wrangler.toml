@@ -1,9 +1,0 @@
-name = "focuslog-api"
-main = "functions/api/[[path]].ts"
-compatibility_date = "2025-01-01"
-migrations_dir = "migrations"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "focuslog"
-database_id = "xxx"
