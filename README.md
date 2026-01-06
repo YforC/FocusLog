@@ -60,71 +60,71 @@ FocusLog 是一个面向个人学习与任务管理的 Web 应用，强调“低
 
 1.登录GitHub，访问[FocusLog](https://github.com/YforC/FocusLog)，fork本项目
 
-![0](images\0.png)
+![0](images/0.png)
 
 2.登录[cf](https://dash.cloudflare.com/)，选择workers&pages后，点击右上角创建程序
 
-![1](images\1.png)
+![1](images/1.png)
 
 3.点击下面的Get Started创建Pages
 
-![2](images\2.png)
+![2](images/2.png)
 
 4.选择从GitHub上拉取项目
 
-![3](images\3.png)
+![3](images/3.png)
 
 5.配置项目如图，构建命令，输出文件夹和环境变量必须跟图中一样(命令都在上面)，配置完成后点击右下角的保存并部署
 
-![5](images\5.png)
+![5](images/5.png)
 
 6.项目部署成功如图所示
 
-![6](images\6.png)
+![6](images/6.png)
 
 7.现在，左侧栏点击储存与数据库，点击D1 SQL，然后点击右上角创建数据库
 
-![7](images\7.png)
+![7](images/7.png)
 
 8.数据库创建配置如图所示
 
-![8](images\8.png)
+![8](images/8.png)
 
 9.点击创建数据库后，点击上面的控制台，在下面输入GitHub代码仓库中[schema.sql](https://github.com/YforC/FocusLog/blob/main/schema.sql)的代码，然后点击执行
 
-![9](images\9.png)
+![9](images/9.png)
 
 10.执行成功后验表操作如图
 
-![10](images\10.png)
+![10](images/10.png)
 
 11.如图，左侧回到刚刚的Pages，选择刚刚部署的项目
 
-![11](images\11.png)
+![11](images/11.png)
 
 12.如图，先点击设置，然后点击绑定，在Bindings中新增，选择D1 数据库
 
-![12](images\12.png)
+![12](images/12.png)
 
 13.配置D1，变量名为DB，数据库选择刚刚创建的数据库，然后保存
 
-![13](images\13.png)
+![13](images/13.png)
 
 14.保存之后点击第一个，然后点击查看详细
 
-![14](images\14.png)
+![14](images/14.png)
 
 15.进入详细内容后，点击重新部署Retry
 
-![15](images\15.png)
+![15](images/15.png)
 
-16.在这个界面可以查看cf大善人提供的项目域名(默认被墙，如何使用自己的域名请自行完成)
+16.在这个界面可以查看cf大善人提供的项目域名(默认被墙，使用自己的域名也很简单)
 
-![16](images\16.png)
+![16](images/16.png)
 
 17.项目完成效果
 
-![18](images\18.png)
+![18](images/18.png)
 
 ## 项目成员
 
